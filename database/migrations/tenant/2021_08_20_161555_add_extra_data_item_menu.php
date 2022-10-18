@@ -1,0 +1,33 @@
+<?php
+
+    use App\Models\System\Module;
+    use App\Models\System\ModuleLevel;
+    use Illuminate\Support\Facades\Schema;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Database\Migrations\Migration;
+
+class AddExtraDataItemMenu extends Migration
+{
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+    public function up()
+    {
+      
+    //Added in main migration
+
+    }
+
+    /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */
+    public function down()
+    {
+        //
+        //Added in main migration
+    }
+}
